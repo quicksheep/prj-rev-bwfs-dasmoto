@@ -10,7 +10,7 @@ h2 {
 	font-weight: bold;
 }
 h1 {
-  /* this image is way too big for the web.*/
+  	/* this image is way too big for the web.*/
 	background-image: url('../images/pattern.jpeg');
 	font-size: 100px;
 	color: khaki;
@@ -19,9 +19,9 @@ h2 {
 	font-size: 32px;
 	color: white;
 }
-#brushes h2 {	background-color: mediumspringgreen; }
-#frames h2 	{ background-color: lightcoral; }
-#paint h2		{ background-color: skyblue; }
+#brushes h2	{ background-color: mediumspringgreen; }
+#frames h2	{ background-color: lightcoral; }
+#paint h2	{ background-color: skyblue; }
 
 .price {
 	color: blue;
