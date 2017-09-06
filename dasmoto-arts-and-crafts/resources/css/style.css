@@ -1,0 +1,33 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+h1,
+h2 {
+	/*
+	 *Considered using a bold class, but did not
+	 *because 'bold' is stylistic, not semantic.
+	 */
+	font-weight: bold;
+}
+h1 {
+  /* this image is way too big for the web.*/
+	background-image: url('../images/pattern.jpeg');
+	font-size: 100px;
+	color: khaki;
+}
+h2 {
+	font-size: 32px;
+	color: white;
+}
+#brushes h2 {	background-color: mediumspringgreen; }
+#frames h2 	{ background-color: lightcoral; }
+#paint h2		{ background-color: skyblue; }
+
+.price {
+	color: blue;
+	/* kept bold here instead of adding .price up top
+	 * with the h1 and h2, because it's better to keep
+	 * styles for one item together as much as possible.
+	 */
+	font-weight: bold;
+}
